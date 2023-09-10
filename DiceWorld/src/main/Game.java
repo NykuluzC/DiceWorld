@@ -2,7 +2,8 @@ package main;
 
 public class Game{
   //Constructor
+  private GameWindow gameWindow;
   public Game(){
-    System.out.println("I am alive");
+    gameWindow = new GameWindow();
   }
 }
